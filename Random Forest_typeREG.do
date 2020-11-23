@@ -26,7 +26,7 @@ gen nvars = .
 local j =  0
 forvalues i = 1(1)20 {
 local j = `j' + 1
-rforest logDOSE x1 x2 x3 xn in 1/250, type(reg) iter(300) numvars(`i')
+rforest logDOSE x1 x2 x3 xn in 1/250, type(reg) iter(c) numvars(`i')
 qui replace nvars = `i' in `j'
 qui replace oob_error = `e(OOB_Error)' in `j'
 predict p in 251/500
