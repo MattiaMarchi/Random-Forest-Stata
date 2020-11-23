@@ -2,7 +2,9 @@
 Random Forest, type classification and regression.
 
 Random Forest with Stata
+
 Random Forest is a machine learning algorithm for prediction. For more insights on the method -> Leo Breiman. Random forests. Machine Learning, 45(1):5-32, 2001.
+
 These scripts represented my first application of Random Forests for two clinical questions regarding the pattern of prescriptions of antipsychotics drugs for people suffering from schizophrenia.
 The first was a classification problem, with dichotomous outcome: antipsychotic polytherapy (APP) Yes/No.
 The second was a regression problem, with continuous outcome: overall antipsychotic dose (expressed in chlorpromazine equivalent milligrams). For this problem, in order to increase the symmetry of the distribution of the outcome variable, it was transformed in log-scale, therefore the actual outcome was the ln(DOSE).
