@@ -14,7 +14,7 @@ With Random Forest predictors of APP and of overall antipsychotic dose were dete
 
 The scripts were written using Stata 15 (StataCorp LLC, College Station, Texas 77845 USA). These are intended for my own education and to give me a chance to explore the models.
 Students and researchers interested in approaching Machine Learning techniques, may find Random Forests very stimulating to implement in biomedical researches, and these codes quite simple to apply if you are using Stata.
-Expert programmers may provide valuable input and suggestions for helping to improve the codes and the outputs.
+Expert programmers may provide valuable input and suggestions for helping to improve the quality of the codes and outputs.
 
 -----
 Usage:
