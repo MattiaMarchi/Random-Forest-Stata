@@ -25,7 +25,7 @@ gen val_error = .
 local j = 0
 forvalues i = 1(1)20 {
 local j = `j' + 1
-rforest APP x1 x2 x3 xn in 1/250, type(class) iter(1000) numvars(`i')
+rforest APP x1 x2 x3 xn in 1/250, type(class) iter(a) numvars(`i')
 qui replace nvars = `i' in `j'
 qui replace oob_error = `e(OOB_Error)' in `j'
 predict p in 251/500
