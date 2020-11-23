@@ -7,8 +7,11 @@ Random Forest is a machine learning algorithm for prediction. For more insights 
 
 These scripts represented my first application of Random Forests for two clinical questions regarding the pattern of prescriptions of antipsychotics drugs for people suffering from schizophrenia.
 The first was a classification problem, with dichotomous outcome: antipsychotic polytherapy (APP) Yes/No.
+
 The second was a regression problem, with continuous outcome: overall antipsychotic dose (expressed in chlorpromazine equivalent milligrams). For this problem, in order to increase the symmetry of the distribution of the outcome variable, it was transformed in log-scale, therefore the actual outcome was the ln(DOSE).
+
 With Random Forest predictors of APP and of overall antipsychotic dose were determined.
+
 The scripts were written using Stata 15 (StataCorp LLC, College Station, Texas 77845 USA). These are intended for my own education and to give me a chance to explore the models.
 Students and researchers interested in approaching Machine Learning techniques, may find Random Forests very stimulating to implement in biomedical researches, and these codes quite simple to apply if you are using Stata.
 Expert programmers may provide valuable input and suggestions for helping to improve the codes and the outputs.
