@@ -19,4 +19,4 @@ x1 x2 x3 xn are the predictors you want to assess using the Random Forest model.
 a and b, c and d are the number of iterations and of variables randomly selected at each split, for classification and regression Random Forest respectively. You should replace them with number values, following my comments in the scripts.
 
 -----
-If you have found these codes useful for your researches and wish to support, please cite this repository. 
+If you found these codes useful for your researches and wish to support, please cite this repository in your work. 
